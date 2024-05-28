@@ -1,5 +1,5 @@
-// CORE REACT
-// ReactElement(object) = HTML(browser understands)
+import React from "react";
+import ReactDOM from "react-dom/client";
 
 const parent = React.createElement(
   "div",
@@ -15,5 +15,10 @@ const heading = React.createElement(
   { id: "heading" },
   "Hello World inside REACT!!!"
 );
+
+// JSX - HTML/XML like syntax
+const jsxHeading = <h1 id="Heading">Hello World!!!</h1>
+
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(parent);
+root.render(jsxHeading);
