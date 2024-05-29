@@ -16,6 +16,7 @@ const heading = React.createElement(
   "Hello World inside REACT!!!"
 );
 
+// JSX (Transpiled before it reaches JS engine - by PARCEL - Babel ) 
 // JSX - HTML/XML like syntax
 const jsxHeading = <h1 id="Heading">Hello World!!!</h1>
 
